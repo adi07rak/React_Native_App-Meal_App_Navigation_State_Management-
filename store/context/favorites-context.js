@@ -1,5 +1,6 @@
 import { createContext } from "react";
 
+// This is the alternative of using state management instea of redux
 export const FavoritesContext = createContext({
   ids: [],
   addFavorite: (id) => {},
